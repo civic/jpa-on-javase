@@ -1,8 +1,6 @@
 package jpa_on_javase;
 
-import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.Date;
 import jpa_on_javase.entity.Customer;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
