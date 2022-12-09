@@ -5,7 +5,7 @@
     <class>jpa_on_javase.entity.Customer</class>
     <properties>
 
-      <property name="javax.persistence.jdbc.url" value="jdbc:h2:./target/h2database;create=true"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:h2:./target/h2database"/>
       <!-- create a dabase 'sample-db' on current directory -->
       <property name="javax.persistence.jdbc.user" value="jpa"/>
       <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
